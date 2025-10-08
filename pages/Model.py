@@ -89,9 +89,6 @@ def load_and_preprocess_data():
     return y, X_preprocessed_df
 
 
-"""Regression"""
-
-
 def correlation_test(y, X_preprocessed_df, lag):
     lag = 3
     y_lagged = y.shift(-lag).dropna()
