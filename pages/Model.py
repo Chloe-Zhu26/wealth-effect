@@ -1,5 +1,5 @@
 import streamlit as st
-from am_project_code import load_and_preprocess_data, train_and_predict_with_lag, prepare_and_plot
+from project_code import load_and_preprocess_data, train_and_predict_with_lag, prepare_and_plot
 
 st.subheader("Modeling the Wealth Effect")
 
