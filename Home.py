@@ -70,13 +70,13 @@ st.markdown("""
 An interactive tool exploring how stock market performance (specifically the NASDAQ index) relates to food expenditure in the U.S.
 
 
-- **Literature Review**
+- **Literature Review**:
   Summary of academic research on the wealth effect and how rising asset values can influence consumer behavior.
 
-- **Predictive Modeling**
+- **Predictive Modeling**:
   A polynomial regression model that analyzes the relationship between the NASDAQ and food spending, with adjustable time lag.
 
-- **Visualizations**
+- **Visualizations**:
   Interactive graphs showing actual vs predicted values, residual analysis, and time series comparisons.
 
 
@@ -84,3 +84,4 @@ Explore the sections using the sidebar navigation. Adjust model parameters, insp
 """)
 
 # st.subheader("How This Affects You")
+
